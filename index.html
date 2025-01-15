@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site em Construção | RSM Softwares</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #333;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1.25rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .loader {
+            border: 6px solid #f3f3f3;
+            border-top: 6px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+            margin: 30px auto;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .button-container {
+            margin-top: 40px;
+        }
+
+        .contact-button {
+            background-color: #3498db;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .contact-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Estamos Construindo Algo Incrível!</h1>
+    <p>O site da RSM Softwares está em construção, mas em breve estará disponível para você. Fique atento!</p>
+
+    <div class="loader"></div>
+
+    <div class="button-container">
+        <a href="mailto:contato@rsmsoftwares.com.br" class="contact-button">Entre em Contato</a>
+    </div>
+
+    <footer style="position: absolute; bottom: 10px; font-size: 0.9rem; color: #777;">
+        &copy; 2025 RSM Softwares | Todos os direitos reservados.
+    </footer>
+
+</body>
+
+</html>
